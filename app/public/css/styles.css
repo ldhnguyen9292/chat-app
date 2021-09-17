@@ -1,0 +1,73 @@
+main {
+  background-image: url("./../img/theme.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  height: 600px;
+}
+main h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(rgb(255, 146, 146), rgb(163, 1, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+/* form */
+.form_box {
+  width: 100%;
+  padding: 100px 20px;
+}
+form.index {
+  background: #afafafad;
+  width: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 10px;
+}
+
+button {
+  background: lightcoral;
+  border-radius: 5px !important;
+}
+
+/* chat room */
+.box {
+  background: #afafafad;
+  height: max-content;
+  display: flex;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  height: 450px;
+}
+.box_left {
+  width: 20%;
+  border-right: 1px black solid;
+}
+.box_right {
+  width: 80%;
+  padding: 20px;
+}
+#mess_box {
+  width: 100%;
+  background: #d6fff7;
+  color: black;
+  height: 95%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  overflow-y: scroll;
+}
+#form_message {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+#input_message {
+  flex-grow: 1;
+}
